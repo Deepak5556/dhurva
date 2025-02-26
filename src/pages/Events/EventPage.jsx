@@ -25,7 +25,7 @@ function EventPage() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-3xl tracking-wide sm:text-5xl lg:text-6xl font-extrabold tracking-tight powergrok bg-gradient-to-r text-black bg-clip-text">
+        <h1 className="text-3xl tracking-wide sm:text-5xl lg:text-6xl font-extrabold  powergrok bg-gradient-to-r text-black bg-clip-text">
           {departmentData.departmentName}
         </h1>
         <p className="mt-4 dm-sans text-lg text-justify text-gray-600 dark:text-gray-300 max-w-7xl mx-auto leading-relaxed">

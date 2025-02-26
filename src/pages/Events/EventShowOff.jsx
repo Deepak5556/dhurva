@@ -13,7 +13,7 @@ function EventShowOff({ events }) {
 
   return (
     <>
-   
+  
       <>
         {workshops.length > 0 ? (
           <>
@@ -63,5 +63,4 @@ function EventShowOff({ events }) {
     </>
   );
 }
-
 export default EventShowOff;
